@@ -32,8 +32,8 @@ public class DriveConstants {
      * from DriveVelocityPIDTuner.
      */
     public static final boolean RUN_USING_ENCODER = true;
-    public static PIDFCoefficients MOTOR_VELO_PID = new PIDFCoefficients(35, 0, 18,
-            17.5);
+    public static PIDFCoefficients MOTOR_VELO_PID = new PIDFCoefficients(35, 0, 10,
+            17);
 
     /*
      * These are physical constants that can be determined from your robot (including the track
